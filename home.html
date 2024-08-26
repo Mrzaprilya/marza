@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HOME</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">FUTSAL SMK NEGERI 1 PURWOSARI</h2>
+          <p class="sub-heading">Setiap perjuangan pasti ada cerita</p>
+        </div>
+      </header>
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>SKANSA<span>FUTSAL</span>.ID</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="pendaftaran2.html">Pendaftaran</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon">🎖</div>
+          <a href="#"><h3>Penghargaan</h3></a>
+          <p>1st Kompetisi Futsal Tingkat Pelajar SMA/SMK/MA Kabupaten Pasuruan dan Mojokerto.</p>
+        </div>
+        <div class="service">
+          <div class="icon">🛈</div>
+          <a href="#"><h3>Informasi</h3></a>
+          <p>Latihan Rutin : Senin 15.00-17.00. <br> Lap. Indoor SMK NEGERI 1 PURWOSARI</p>
+        </div>
+        <div class="service">
+          <div class="icon">⚙️</div>
+          <a href="#"><h3>Support</h3></a>
+          <p>SMK NEGERI 1 PURWOSARI.</p>
+        </div>
+      </section>
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="WhatsApp Image 2024-08-08 at 07.39.56.jpeg" alt="">
+        <img src="WhatsApp Image 2024-08-08 at 07.39.57 (1).jpeg" alt="" />
+        <img src="WhatsApp Image 2024-08-08 at 07.39.57 (2).jpeg" alt="" />
+        <img src="WhatsApp Image 2024-08-08 at 07.39.57.jpeg" alt="" />
+        <img src="WhatsApp Image 2024-08-08 at 07.39.58.jpeg" alt="" />
+      </section>
+      <script>
+        const menuToggle = document.querySelector(".menu-toggle input");
+        const nav = document.querySelector("nav ul");
+
+        menuToggle.addEventListener("click", function () {
+          nav.classList.toggle("slide");
+        });
+      </script>
+</body>
+</html>
